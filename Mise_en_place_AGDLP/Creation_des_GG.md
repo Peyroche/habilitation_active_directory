@@ -24,7 +24,21 @@ Les Groupes globaux sont créés depuis la console Utilisateurs et ordinateurs A
 
 - Type : Sécurité 
 
-4. Valider.
+4. Valider. 
+
+
+Ensuite Ajouter l'utilisateur
+
+
+5. Aller dans l’OU contenant l’utilisateur (ex : Utilisateurs_RH) 
+
+6. Clic droit sur l’utilisateur (ex : Placide) 
+
+7. Sélectionner Ajouter au groupe 
+
+8. Entrer le groupe global (ex : GG_RH) 
+
+7. Valider. 
 
 ---
 
@@ -42,5 +56,9 @@ Voir ci-dessous, une démonstration imagée sur la création d'un groupe global.
 <img src="images/09.png" width="400">
 
 <img src="images/10.png" width="400">
+
+<img src="images/11.png" width="400">
+
+<img src="images/12.png" width="400">
 
 </p>
