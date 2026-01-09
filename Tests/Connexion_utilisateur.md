@@ -34,9 +34,6 @@ La session s’ouvre sans erreur, le poste affiche le domaine dans les informati
 
 ## Démonstration :
 
-Voir ci-dessous, une démonstration imagée sur la connexion de l’utilisateur au domaine. 
-
-
 <p align="center">
 
 <img src="images/01.png" width="400">

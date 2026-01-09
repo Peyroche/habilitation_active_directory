@@ -30,9 +30,6 @@ L'utilisateur du groupe domaine local peut lire ou écrire selon les droits déf
 
 ## Démonstration :
 
-Voir ci-dessous, une démonstration imagée sur la vérification des permissions NTFS.
-
-
 <p align="center">
 
 <img src="images/08.png" width="400">

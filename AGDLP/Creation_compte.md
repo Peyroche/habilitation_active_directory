@@ -10,7 +10,7 @@ L'utilisateur est créé dans l’OU correspondant à son service afin de mainte
  
 ## Procédure :
 
-La procédure est la suivante : 
+La procédure utilisée est la suivante : 
 
 1. Ouvrir Utilisateurs et ordinateurs Active Directory 
 
