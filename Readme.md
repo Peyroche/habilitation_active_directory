@@ -103,4 +103,4 @@ Partie III – Tests et validations :
 
 - Accès au dossier partage
 
-- Vérifications des droits de permissions NTFS.
+- Vérifications des permissions NTFS.
