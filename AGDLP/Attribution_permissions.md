@@ -30,7 +30,15 @@ suivante :
 
 8. Ajouter le Groupe Domaine Local (ex : DLG_RH) 
 
-9. Donner les droits associés au groupe. (ex : Full Contrôle total).
+9. Donner les droits associés au groupe. (ex : Full Control).
+
+
+| Dossiers     | OU_Groupes   | Permissions droit de partage (SMB)                                                   |
+|--------------|--------------|--------------------------------------------------------------------------------------|
+| Dossier_RH   | DLG_RH       | Full Control (Contrôle total) : Modification + gestion des permissions du partage.   | 
+| Dossier_INF  | DLG_INF      | Change (Modification) : Lecture + modification, suppression, création de fichiers.   |
+| Dossier_CP   | DLG_CP       | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
+
 
 ---
 
@@ -76,7 +84,15 @@ Les permissions NTFS s'appliquent sur le disque dans l'onglet sécurité en suiv
 
 5. Ajouter le Groupe Domaine Local (ex : DLG_RH)
 
-6. Donner les droits associés au groupe. (ex : RW lecture et écriture).
+6. Donner les droits associés au groupe. (ex : Change).
+
+
+| Dossiers     | OU_Groupes   | Permissions NTFS                                                                     |
+|--------------|--------------|--------------------------------------------------------------------------------------|
+| Dossier_RH   | DLG_RH       | Change (Modification) : Lecture + modification, suppression, création de fichiers.   | 
+| Dossier_INF  | DLG_INF      | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
+| Dossier_CP   | DLG_CP       | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
+
 
 ---
 
