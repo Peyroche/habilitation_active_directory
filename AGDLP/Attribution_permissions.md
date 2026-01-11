@@ -33,7 +33,7 @@ suivante :
 9. Donner les droits associés au groupe. (ex : Full Control).
 
 
-| Dossiers     | OU_Groupes   | Permissions droit de partage (SMB)                                                   |
+| Dossiers     | OU_Groupes   | Permissions droits de partage (SMB)                                                  |
 |--------------|--------------|--------------------------------------------------------------------------------------|
 | Dossier_RH   | DLG_RH       | Full Control (Contrôle total) : Modification + gestion des permissions du partage.   | 
 | Dossier_INF  | DLG_INF      | Change (Modification) : Lecture + modification, suppression, création de fichiers.   |
@@ -70,6 +70,7 @@ suivante :
 
 </p>
 
+
 - Permissions SMB du Dossier_INF
 
 <p align="center">
@@ -95,6 +96,7 @@ suivante :
 <img src="images_SMB_INF/10.png" width="400">
 
 </p>
+
 
 - Permissions SMB du Dossier_CP
 
@@ -173,6 +175,7 @@ Les permissions NTFS s'appliquent sur le disque dans l'onglet sécurité en suiv
 
 </p>
 
+
 - Permissions NTFS du Dossier_INF
 
 <p align="center">
@@ -188,6 +191,7 @@ Les permissions NTFS s'appliquent sur le disque dans l'onglet sécurité en suiv
 <img src="images_NTFS_INF/05.png" width="400">
 
 </p>
+
 
 - Permissions NTFS du Dossier_CP
 
