@@ -51,6 +51,36 @@ Pour la création d'un GG, la procédure utilisée est la suivante  :
 
 </p>
 
+
+- Création du GG_INF
+
+<p align="center">
+
+<img src="images_GG_INF/01.png" width="400">
+
+<img src="images_GG_INF/02.png" width="400">
+
+<img src="images_GG_INF/03.png" width="400">
+
+<img src="images_GG_INF/04.png" width="400">
+
+</p>
+
+
+- Création du GG_CP
+
+<p align="center">
+
+<img src="images_GG_CP/01.png" width="400">
+
+<img src="images_GG_CP/02.png" width="400">
+
+<img src="images_GG_CP/03.png" width="400">
+
+<img src="images_GG_CP/04.png" width="400">
+
+</p>
+
 ---
 
 ## Procédure création DLG :
@@ -93,6 +123,32 @@ Pour la création d'un DLG, la procédure utilisée est la suivante  :
 
 </p>
 
+
+- Création du DLG_INF
+
+<p align="center">
+
+<img src="images_DLG_INF/01.png" width="400">
+
+<img src="images_DLG_INF/02.png" width="400">
+
+<img src="images_DLG_INF/03.png" width="400">
+
+</p>
+
+
+- Création du DLG_CP
+
+<p align="center">
+
+<img src="images_DLG_CP/01.png" width="400">
+
+<img src="images_DLG_CP/02.png" width="400">
+
+<img src="images_DLG_CP/03.png" width="400">
+
+</p>
+
 ---
 
 ## Procédure d'ajout de l'utilisateur au GG :
@@ -109,23 +165,45 @@ Pour l'ajout de l'utilisateur au GG, la procédure utilisée est la suivante :
 
 5. Valider.
 
-| Services              | OU_Groupes       | Utilisateurs   |
-|-----------------------|------------------|----------------|
-| Ressources Humaines   | GG_RH            |  Placide       |
-| Informatique          | GG_INF           |  Fortuné       |
-| Comptabilité          | GG_CP            |  Hugues        |
+| Services              | OU_Groupes   | OU_Utilisateurs   | Noms utilisateurs |
+|-----------------------|--------------|-------------------|-------------------|
+| Ressources Humaines   | GG_RH        | Utilisateur_RH    |  Placide          |
+| Informatique          | GG_INF       | Utilisateur_INF   |  Fortuné          |
+| Comptabilité          | GG_CP        | Utilisateur_CP    |  Hugues           |
 
 ---
 
 ## Démonstration d'ajout de l'utilisateur au GG :
 
-- Ajout de l'utilisateur Placide au GG_RH
+- Ajout Utilisateur_RH du nom de Placide au GG_RH
 
 <p align="center">
 
 <img src="images_ajout_RH/01.png" width="400">
 
 <img src="images_ajout_RH/02.png" width="400">
+
+</p>
+
+
+- Ajout de Utilisateur_INF du nom de Fortuné au GG_INF
+
+<p align="center">
+
+<img src="images_ajout_INF/01.png" width="400">
+
+<img src="images_ajout_INF/02.png" width="400">
+
+</p>
+
+
+- Ajout de Utilisateur_CP du nom de Hugues au GG_CP
+
+<p align="center">
+
+<img src="images_ajout_CP/01.png" width="400">
+
+<img src="images_ajout_CP/02.png" width="400">
 
 </p>
 
@@ -166,6 +244,26 @@ Pour l'ajout du GG au DLG, la procédure utilisée est la suivante :
 </p>
 
 
+- Ajout du GG_INF au DLG_INF
+
+<p align="center">
+
+<img src="images_ajout_GG_INF/01.png" width="400">
+
+<img src="images_ajout_GG_INF/02.png" width="400">
+
+</p>
+
+
+- Ajout du GG_CP au DLG_CP
+
+<p align="center">
+
+<img src="images_ajout_GG_CP/01.png" width="400">
+
+<img src="images_ajout_GG_CP/02.png" width="400">
+
+</p>
 
 
 
