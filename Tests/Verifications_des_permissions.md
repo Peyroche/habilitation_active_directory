@@ -28,16 +28,49 @@ L'utilisateur du groupe domaine local peut lire ou écrire selon les droits déf
 
 ---
 
-## Démonstration :
+## Démonstrations :
+
+- Vérification permissions NTFS au Dossier_RH
 
 <p align="center">
 
-<img src="images/08.png" width="400">
+<img src="images_NTFS_RH/01.png" width="400">
 
-<img src="images/09.png" width="400">
+<img src="images_NTFS_RH/02.png" width="400">
 
-<img src="images/10.png" width="400">
+<img src="images_NTFS_RH/03.png" width="400">
 
-<img src="images/11.png" width="400">
+<img src="images_NTFS_RH/04.png" width="400">
 
 </p>
+
+
+- Vérification permissions NTFS au Dossier_INF
+
+<p align="center">
+
+<img src="images_NTFS_INF/01.png" width="400">
+
+<img src="images_NTFS_INT/02.png" width="400">
+
+<img src="images_NTFS_INT/03.png" width="400">
+
+<img src="images_NTFS_INT/04.png" width="400">
+
+</p>
+
+
+- Vérification permissions NTFS au Dossier_CP
+
+<p align="center">
+
+<img src="images_NTFS_CP/01.png" width="400">
+
+<img src="images_NTFS_CP/02.png" width="400">
+
+<img src="images_NTFS_CP/03.png" width="400">
+
+</p>
+
+
+
