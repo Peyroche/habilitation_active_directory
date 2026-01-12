@@ -42,6 +42,8 @@ La procédure utilisée est la suivante :
 
 <img src="images/images_NTFS_RH/04.png" width="400">
 
+<img src="images/images_NTFS_RH/05.png" width="400">
+
 </p>
 
 
