@@ -4,8 +4,7 @@
 
 ## Objectif :
 
-L’attribution des permissions est l’étape où le groupe domaine local (DLG) 
-reçoit les droits d’accès sur le dossier partagé du serveur.
+L’attribution des permissions est l’étape où les groupes domaines local (DLG) reçoivent les droits d’accès sur les dossiers partagés du serveur.
 
 ---
 

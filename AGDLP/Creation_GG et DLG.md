@@ -2,10 +2,10 @@
 
 ---
 
-## Objectif :
+## Objectifs :
 
-Le groupe global (GG) représente le rôle métier dans l’entreprise. Il sert à regrouper les utilisateurs selon leur service afin d’appliquer ensuite le modèle AGDLP. 
-Tandis que Le groupe domaine local (DLG) est utilisé pour attribuer les permissions NTFS et SMB sur le dossier partagé du serveur. 
+Les groupes globaux (GG) représentent le rôle métier dans l’entreprise. Il sert à regrouper les utilisateurs selon leur service afin d’appliquer ensuite le modèle AGDLP. 
+Tandis que Les groupes domaines local (DLG) sont utilisés pour attribuer les permissions NTFS et SMB sur les dossiers partagés du serveur. 
 
 ---
 
@@ -159,7 +159,7 @@ Pour l'ajout de l'utilisateur au GG, la procédure utilisée est la suivante :
 
 5. Valider.
 
-| Services              | OU_Groupes   | OU_Utilisateurs   | Noms utilisateurs |
+| Services              | OU_Groupes   | OU_Utilisateurs   | Noms Utilisateurs |
 |-----------------------|--------------|-------------------|-------------------|
 | Ressources Humaines   | GG_RH        | Utilisateur_RH    |  Placide          |
 | Informatique          | GG_INF       | Utilisateur_INF   |  Fortuné          |

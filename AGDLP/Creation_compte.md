@@ -4,7 +4,7 @@
 
 ## Objectif :
 
-Les comptes utilisateurs sont créé dans l’OU correspondant à son service afin de maintenir une organisation claire et professionnelle du domaine Active Directory. 
+Les comptes utilisateurs sont créés dans l’OU correspondant à son service afin de maintenir une organisation claire et professionnelle du domaine Active Directory. 
 
 ---
  
