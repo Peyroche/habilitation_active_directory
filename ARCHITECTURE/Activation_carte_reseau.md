@@ -1,4 +1,4 @@
-# Activation de la carte réseau
+# Activation carte réseau
 
 ---
 

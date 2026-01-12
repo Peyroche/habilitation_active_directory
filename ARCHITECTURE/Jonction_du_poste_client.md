@@ -22,7 +22,7 @@ Pour joindre le poste client au domaine, la procédure est la suivante :
 
 ---
 
-## Démonstration sur la jonction du poste client au domaine :
+## Démonstration jonction du poste client au domaine :
 
 <p align="center">
 

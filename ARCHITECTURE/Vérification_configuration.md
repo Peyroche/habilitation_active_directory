@@ -1,4 +1,4 @@
-# Vérification de la configuration réseau du poste client 
+# Vérification configuration réseau du poste client 
 
 ---
 
@@ -12,7 +12,7 @@ On vérifie la configuration réseau du poste client dans l'invite de commande a
 
 ---
 
-## Démonstrations :
+## Démonstration :
 
 <p align="center">
 
