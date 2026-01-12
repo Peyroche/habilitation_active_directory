@@ -55,7 +55,7 @@ La procédure utilisée est la suivante :
 
 <img src="images/images_NTFS_INF/02.png" width="400">
 
-<img src="image/images_NTFS_INF/03.png" width="400">
+<img src="images/images_NTFS_INF/03.png" width="400">
 
 </p>
 
