@@ -1,10 +1,10 @@
-# CREATION COMPTE UTILISATEUR
+# CREATION COMPTES UTILISATEURS
 
 ---
 
 ## Objectif :
 
-L'utilisateur est créé dans l’OU correspondant à son service afin de maintenir une organisation claire et professionnelle du domaine Active Directory. 
+Les comptes utilisateurs sont créé dans l’OU correspondant à son service afin de maintenir une organisation claire et professionnelle du domaine Active Directory. 
 
 ---
  
