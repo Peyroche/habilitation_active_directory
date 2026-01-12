@@ -81,6 +81,7 @@ Tandis que sur le poste client, la procédure de configuration est effectuée pa
 
 </p>
 
+---
 
 ## Activation de la carte réseau :
 
@@ -98,7 +99,7 @@ Pour activer la carte réseau, la procédure est la suivante :
 
 - Nom = le même que sur le serveur (ex : intnet) 
 
-- Type d’interface = Intel PRO/1000 MT Desktop (82540EM) → c’est bon 
+- Type d’interface = Intel PRO/1000 MT Desktop (82540EM)
 
 - Câble branché = coché ✅ 
 
