@@ -53,7 +53,7 @@ Partie I - Création de l’architecture AD  :
 
 - Configuration du domaine 
 
-- Ajout des 3 postes clients au domaine 
+- Configuration du réseau et jonction du poste client au domaine 
 
 - Création des 3 dossiers partagés
 
