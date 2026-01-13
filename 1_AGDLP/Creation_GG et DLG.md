@@ -80,7 +80,7 @@ Pour la création des DLG, la procédure utilisée est la suivante  :
 
 ## Démonstration :
 
-Pour la création des DLG, la procédure utilisée est la suivante  :
+Pour la démonstration, nous nous servirons juste d’un seul exemple.
 
 <p align="center">
 
@@ -112,7 +112,7 @@ Pour l'ajout des utilisateurs au GG, la procédure utilisée est la suivante :
 
 ## Démonstration :
 
-Pour la création des DLG, la procédure utilisée est la suivante  :
+Pour la démonstration, nous nous servirons juste d’un seul exemple.
 
 <p align="center">
 
@@ -142,7 +142,7 @@ Pour l'ajout des GG aux DLG, la procédure utilisée est la suivante :
 
 ## Démonstration :
 
-Pour la création des DLG, la procédure utilisée est la suivante  :
+Pour la démonstration, nous nous servirons juste d’un seul exemple.
 
 <p align="center">
 
