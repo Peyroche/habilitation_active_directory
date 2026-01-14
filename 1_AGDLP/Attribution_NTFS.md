@@ -2,21 +2,9 @@
 
 ---
 
-## Objectif :
+## Procédure :
 
-Cette fiche a pour objective d'expliquer comment attribuer aux Groupes du Domaine Local (DLG) les permissions NTFS sur des dossiers.
-
-| Dossiers     | OU_Groupes | DLG     | Permissions NTFS                                                                     |
-|--------------|------------|---------|--------------------------------------------------------------------------------------|
-| Dossier_RH   | DLG        | DLG_RH  | Change (Modification) : Lecture + modification, suppression, création de fichiers.   | 
-| Dossier_INF  | DLG        | DLG_INF | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
-| Dossier_CP   | DLG        | DLG_CP  | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
-
----
-
-## Procédure attribution des permissions NTFS aux DLG sur des dossiers :
-
-La procédure utilisée est la suivante :
+Les permissions NTFS s'appliquent sur le disque dans l'onglet sécurité en suivant la procédure suivante :
 
 1. Clic droit sur le dossier (ex : Dossier_RH)
 
@@ -30,28 +18,73 @@ La procédure utilisée est la suivante :
 
 6. Donner les droits associés au groupe. (ex : Change).
 
+
+| Dossiers     | OU_Groupes | DLG     | Permissions NTFS                                                                     |
+|--------------|------------|---------|--------------------------------------------------------------------------------------|
+| Dossier_RH   | DLG        | DLG_RH  | Change (Modification) : Lecture + modification, suppression, création de fichiers.   | 
+| Dossier_INF  | DLG        | DLG_INF | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
+| Dossier_CP   | DLG        | DLG_CP  | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
+
 ---
 
-## Démonstration d'une attribution des permissions NTFS au DLG_RH sur un Dossier_RH: 
+## Démonstrations : 
+
+- Permissions NTFS du Dossier_RH
 
 <p align="center">
 
-<img src="images_7/images_NTFS_RH/01.png" width="350">
+<img src="images/images_NTFS_RH/01.png" width="400">
 
-<img src="images_7/images_NTFS_RH/02.png" width="350">
+<img src="images/images_NTFS_RH/02.png" width="400">
 
-<img src="images_7/images_NTFS_RH/03.png" width="350">
+<img src="images/images_NTFS_RH/03.png" width="400">
 
-<img src="images_7/images_NTFS_RH/04.png" width="350">
+<img src="images/images_NTFS_RH/04.png" width="400">
 
-<img src="images_7/images_NTFS_RH/05.png" width="350">
+<img src="images/images_NTFS_RH/05.png" width="400">
 
-<img src="images_7/images_NTFS_RH/06.png" width="350">
+<img src="images/images_NTFS_RH/06.png" width="400">
 
-<img src="images_7/images_NTFS_RH/07.png" width="350">
+<img src="images/images_NTFS_RH/07.png" width="400">
 
-<img src="images_7/images_NTFS_RH/08.png" width="350">
+<img src="images/images_NTFS_RH/08.png" width="400">
 
-<img src="images_7/images_NTFS_RH/09.png" width="350">
+<img src="images/images_NTFS_RH/09.png" width="400">
+
+</p>
+
+
+- Permissions NTFS du Dossier_INF
+
+<p align="center">
+
+<img src="images/images_NTFS_INF/01.png" width="400">
+
+<img src="images/images_NTFS_INF/02.png" width="400">
+
+<img src="images/images_NTFS_INF/03.png" width="400">
+
+<img src="images/images_NTFS_INF/04.png" width="400">
+
+<img src="images/images_NTFS_INF/05.png" width="400">
+
+</p>
+
+
+- Permissions NTFS du Dossier_CP
+
+<p align="center">
+
+<img src="images/images_NTFS_CP/01.png" width="400">
+
+<img src="images/images_NTFS_CP/02.png" width="400">
+
+<img src="images/images_NTFS_CP/03.png" width="400">
+
+<img src="images/images_NTFS_CP/04.png" width="400">
+
+<img src="images/images_NTFS_CP/05.png" width="400">
+
+<img src="images/images_NTFS_CP/06.png" width="400">
 
 </p>
