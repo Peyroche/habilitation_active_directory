@@ -6,8 +6,39 @@ La création des comptes utilisateurs constitue l’une des premières étapes e
 
 Dans ce projet, la création des comptes s’inscrit dans une démarche méthodique fondée sur les bonnes pratiques d’Active Directory. Chaque utilisateur est intégré dans une unité d’organisation adaptée, associé à des groupes de sécurité pertinents et configuré selon les règles définies par la politique interne. Cette approche garantit une administration claire, évolutive et conforme au modèle AGDLP, facilitant la gestion des droits et la maintenance du domaine.
 
-| Services              | OU_Utilisateurs  | Utilisateurs |
-|-----------------------|------------------|--------------|
-| Ressources Humaines   | Utilisateur_RH   | Placide      | 
-| Informatique          | Utilisateur_INF  | Fortuné      |
-| Comptabilité          | Utilisateur_CP   | Hugues       |
+---
+ 
+## Procédure de création comptes :
+
+La procédure utilisée est la suivante : 
+
+1. Ouvrir Utilisateurs et ordinateurs Active Directory 
+
+2. Clic sur le domaine 
+
+3. Naviguer jusqu’à l’OU du service concerné (ex : Utilisateur_RH) 
+
+4. Clic droit → Nouveau → Utilisateur 
+
+5. Renseigner les informations :  
+
+- Prénom (ex : Placide)
+
+- Nom  
+
+- Nom d’ouverture de session (ex : Placide) 
+
+6. Définir un mot de passe conforme à la politique de sécurité 
+
+7. Valider la création du compte.
+
+---
+
+## Tableau récapitulatif 
+
+| Services             | OU_Utilisateurs  | Utilisateurs |
+|----------------------|------------------|--------------|
+| Ressources Humaines  | Utilisateur_RH   | Placide      | 
+| Informatique         | Utilisateur_INF  | Fortuné      |
+| Comptabilité         | Utilisateur_CP   | Hugues       |
+
