@@ -40,6 +40,7 @@
 
 </p>
 
+---
 
 ## Création compte utilisateur_CP du nom de Hugues
 
