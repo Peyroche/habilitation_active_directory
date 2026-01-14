@@ -4,7 +4,7 @@
 
 ## Objectif :
 
-Attribuer aux Groupes du Domaine Local (DLG) les permissions NTFS.
+Cette fiche a pour objective d'expliquer comment attribuer aux Groupes du Domaine Local (DLG) les permissions NTFS sur des dossiers.
 
 | Dossiers     | OU_Groupes | DLG     | Permissions NTFS                                                                     |
 |--------------|------------|---------|--------------------------------------------------------------------------------------|
@@ -14,9 +14,9 @@ Attribuer aux Groupes du Domaine Local (DLG) les permissions NTFS.
 
 ---
 
-## Procédure :
+## Procédure attribution des permissions NTFS aux DLG sur des dossiers :
 
-Pour l'attribution des permissions NTFS, la procédure suivante :
+La procédure utilisée est la suivante :
 
 1. Clic droit sur le dossier (ex : Dossier_RH)
 
@@ -32,28 +32,26 @@ Pour l'attribution des permissions NTFS, la procédure suivante :
 
 ---
 
-## Démonstration : 
-
-Pour la démonstration, nous nous servirons d'un seul exemple.
+## Démonstration d'une attribution des permissions NTFS au DLG_RH sur un Dossier_RH: 
 
 <p align="center">
 
-<img src="images_7/images_NTFS_RH/01.png" width="400">
+<img src="images_7/images_NTFS_RH/01.png" width="350">
 
-<img src="images_7/images_NTFS_RH/02.png" width="400">
+<img src="images_7/images_NTFS_RH/02.png" width="350">
 
-<img src="images_7/images_NTFS_RH/03.png" width="400">
+<img src="images_7/images_NTFS_RH/03.png" width="350">
 
-<img src="images_7/images_NTFS_RH/04.png" width="400">
+<img src="images_7/images_NTFS_RH/04.png" width="350">
 
-<img src="images_7/images_NTFS_RH/05.png" width="400">
+<img src="images_7/images_NTFS_RH/05.png" width="350">
 
-<img src="images_7/images_NTFS_RH/06.png" width="400">
+<img src="images_7/images_NTFS_RH/06.png" width="350">
 
-<img src="images_7/images_NTFS_RH/07.png" width="400">
+<img src="images_7/images_NTFS_RH/07.png" width="350">
 
-<img src="images_7/images_NTFS_RH/08.png" width="400">
+<img src="images_7/images_NTFS_RH/08.png" width="350">
 
-<img src="images_7/images_NTFS_RH/09.png" width="400">
+<img src="images_7/images_NTFS_RH/09.png" width="350">
 
 </p>

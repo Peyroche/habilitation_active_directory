@@ -4,7 +4,7 @@
 
 ## Objectif :
 
-Créer des comptes utilisateurs dans l’OU correspondant à leur service afin de maintenir une organisation claire et professionnelle du domaine Active Directory.
+Cette fiche à pour objective d'expliquer la création des comptes utilisateurs correspondant à un service afin de maintenir une organisation claire et professionnelle du domaine Active Directory.
 
 | Services              | OU_Utilisateurs  | Utilisateurs |
 |-----------------------|------------------|--------------|
@@ -14,7 +14,7 @@ Créer des comptes utilisateurs dans l’OU correspondant à leur service afin d
 
 ---
  
-## Procédure :
+## Procédure création des comptes utilisateurs :
 
 La procédure utilisée est la suivante : 
 
@@ -38,22 +38,20 @@ La procédure utilisée est la suivante :
  
 ---
 
-## Démonstration :
-
-Pour la démonstration, nous nous servirons juste d'un seul exemple.
+## Démonstration création d'un compte utilisateur_RH :
 
 <p align="center">
 
-<img src="images_1/images_RH/01.png" width="400">
+<img src="images_1/images_RH/01.png" width="350">
 
-<img src="images_1/images_RH/02.png" width="400">
+<img src="images_1/images_RH/02.png" width="350">
 
-<img src="images_1/images_RH/03.png" width="400">
+<img src="images_1/images_RH/03.png" width="350">
 
-<img src="images_1/images_RH/04.png" width="400">
+<img src="images_1/images_RH/04.png" width="350">
 
-<img src="images_1/images_RH/05.png" width="400">
+<img src="images_1/images_RH/05.png" width="350">
 
-<img src="images_1/images_RH/06.png" width="400">
+<img src="images_1/images_RH/06.png" width="350">
 
 </p>

@@ -1,4 +1,4 @@
-# Projet 1 : Habilitation_AD
+# Projet 1 : Habilitation Active Directory (AD)
 
 ---
 
@@ -8,7 +8,7 @@ L’architecture mise en place dans le cadre de ce projet repose sur une infrast
 
 L’infrastructure se compose des éléments suivants : 
 
-- 1 serveur Windows Server jouant le rôle de contrôleur de domaine (DC). Il héberge les services essentiels : Active Directory Domain Services (AD DS), DNS, gestion des utilisateurs, des groupes et des stratégies de sécurité. 
+- 1 serveur Windows Server 22 jouant le rôle de contrôleur de domaine (DC). Il héberge les services essentiels : Active Directory Domain Services (AD DS), DNS, gestion des utilisateurs, des groupes et des stratégies de sécurité. 
 
 - 1 domaine Active Directory structuré selon une logique professionnelle. Le domaine permet l’authentification centralisée des utilisateurs et la gestion des permissions via le modèle AGDLP. 
 
@@ -18,7 +18,7 @@ L’infrastructure se compose des éléments suivants :
 
 - 3 groupes locaux de domaine (DLG) associés aux ressources partagées. Ils reçoivent les permissions NTFS et SMB sur les dossiers du serveur. 
 
-- 1 poste client Windows Pro intégrés au domaine. Il permet aux utilisateurs de se connecter avec leur compte AD et d’accéder aux ressources selon leurs droits. 
+- 3 postes clients Windows 10 Pro intégrés au domaine. Il permet aux utilisateurs de se connecter avec leur compte AD et d’accéder aux ressources selon leurs droits. 
 
 - 3 dossiers partagés sur le serveur, organisés par service (Ressources Humaines, Informatique, Comptabilité). Chaque dossier est protégé par des permissions adaptées au rôle des 
 utilisateurs. 
@@ -45,33 +45,21 @@ La mise en place d’une infrastructure Active Directory implique des enjeux de 
 
 ## Répartition du Document : 
 
-Ce projet est reparti en 2 parties, à savoir :
+Ce projet est reparti en 2 parties :
 
-
-Partie I – Mise en place d’AGLDP :
+Partie 1 : Mise en place AGLDP 
 
 - Création des comptes utilisateurs
 
 - Création des GG et DLG 
 
-- Attributions des permissions NTFS
+- Attributions permissions NTFS
 
-- Attributions des droits de partage SMB.
+- Attributions droits de partage SMB.
 
 
-Partie II - Réseaux
+Partie 2 : Réseau 
 
-- Activation carte réseau
+- Configuration réseau et cartes réseaux
 
-- Configuration réseau
-
-- Jonction du poste client
-
-- Tests de configuration
- 
-
-Partie III – Tests et validations : 
-
-- Connexion des utilisateurs au domaine
-
-- Vérifications accès et permissions NTFS.
+- Jonction postes clients au domaine.

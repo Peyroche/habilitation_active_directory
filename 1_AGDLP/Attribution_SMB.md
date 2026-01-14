@@ -4,7 +4,7 @@
 
 ## Objectif :
 
-Attribuer aux Groupes du Domaine Local (DLG) les droits de partage SMB.
+Cette fiche a pour objective d'expliquer comment attribuer aux Groupes du Domaine Local (DLG) les droits de partage SMB sur des dossiers.
 
 | Dossiers     | OU_Groupes  | DLG      | Droits de partage SMB                                                                |
 |--------------|-------------|----------|--------------------------------------------------------------------------------------|
@@ -13,9 +13,9 @@ Attribuer aux Groupes du Domaine Local (DLG) les droits de partage SMB.
 | Dossier_CP   | DLG         | DLG_CP   | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
 
 
-## Procédure :
+## Procédure attribution des droits de partages SMB aux DLG sur des dossiers :
 
-Pour l'attribution des droits de partage, la procédure est la suivante :
+La procédure utilisée est la suivante :
 
 1. Clic droit sur le dossier partagé (ex : Dossier_RH)
 
@@ -37,9 +37,7 @@ Pour l'attribution des droits de partage, la procédure est la suivante :
 
 ---
 
-## Démonstration :
-
-Pour la démonstration, nous nous servirons d'un seul exemple.
+## Démonstration d'une attribution des droits de partages SMB au DLG_RH sur un Dossier_RH:
 
 <p align="center">
 

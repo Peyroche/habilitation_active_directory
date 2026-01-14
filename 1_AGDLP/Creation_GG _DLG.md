@@ -4,7 +4,7 @@
 
 ## Objectifs :
 
-Créer des Groupes Globaux (GG) qui serviront à regrouper les utilisateurs selon leur service afin d’appliquer ensuite le modèle AGDLP. 
+Cette fiche a pour objective d'expliquer la création des Groupes Globaux (GG) qui serviront à regrouper les utilisateurs selon leur service afin d’appliquer ensuite le modèle AGDLP. 
 
 | Services              | OU_Groupes  | GG         | OU_Utilisateurs | Utilisateurs |
 |-----------------------|-------------|------------|-----------------|--------------|
@@ -12,7 +12,7 @@ Créer des Groupes Globaux (GG) qui serviront à regrouper les utilisateurs selo
 | Informatique          | GG          | GG_INF     | Utilisateur_INF |  Fortuné     |
 | Comptabilité          | GG          | GG_CP      | Utilisateur_CP  |  Hugues      |
 
-Créer des Groupes Domaines Local (DLG) qui seront utilisés pour attribuer des permissions NTFS/SMB sur les dossiers partagés du serveur. 
+Mais aussi la création des Groupes Domaines Local (DLG) qui seront utilisés pour attribuer des permissions NTFS/SMB sur les dossiers partagés du serveur. 
 
 | Services              | OU_Groupes | DLG       |
 |-----------------------|------------|-----------|
@@ -24,17 +24,13 @@ Créer des Groupes Domaines Local (DLG) qui seront utilisés pour attribuer des 
 
 ## Procédure création des GG :
 
-Pour la création des GG, la procédure utilisée est la suivante :
+La procédure utilisée est la suivante :
 
-1. Ouvrir Utilisateurs et ordinateurs Active Directory
+1. Naviguer jusqu’à l’OU du service concerné (ex : GG)
 
-2. Clic sur le domaine 
+2. Clic droit → Nouveau → Groupe 
 
-3. Naviguer jusqu’à l’OU du service concerné (ex : GG)
-
-4. Clic droit → Nouveau → Groupe 
-
-5. Renseigner : 
+3. Renseigner : 
 
 - Nom du Groupe Global (ex : GG_RH) 
 
@@ -46,21 +42,19 @@ Pour la création des GG, la procédure utilisée est la suivante :
 
 ---
 
-## Démonstration :
-
-Pour la démonstration, nous nous servirons d'un seul exemple.
+## Démonstration création d'un GG_RH :
 
 <p align="center">
 
-<img src="images_2/images_GG_RH/01.png" width="400">
+<img src="images_2/images_GG_RH/01.png" width="350">
 
-<img src="images_2/images_GG_RH/02.png" width="400">
+<img src="images_2/images_GG_RH/02.png" width="350">
 
-<img src="images_2/images_GG_RH/03.png" width="400">
+<img src="images_2/images_GG_RH/03.png" width="350">
 
-<img src="images_2/images_GG_RH/04.png" width="400">
+<img src="images_2/images_GG_RH/04.png" width="350">
 
-<img src="images_2/images_GG_RH/05.png" width="400">
+<img src="images_2/images_GG_RH/05.png" width="350">
 
 </p>
 
@@ -68,7 +62,7 @@ Pour la démonstration, nous nous servirons d'un seul exemple.
 
 ## Procédure création des DLG :
 
-Pour la création des DLG, la procédure utilisée est la suivante  :
+La procédure utilisée est la suivante  :
 
 1. Naviguer jusqu’à l’OU du service concerné (ex : DLG)
 
@@ -86,25 +80,23 @@ Pour la création des DLG, la procédure utilisée est la suivante  :
 
 ---
 
-## Démonstration :
-
-Pour la démonstration, nous nous servirons juste d’un seul exemple.
+## Démonstration création d'un DLG_RH :
 
 <p align="center">
 
-<img src="images_3/images_DLG_RH/01.png" width="400">
+<img src="images_3/images_DLG_RH/01.png" width="350">
 
-<img src="images_3/images_DLG_RH/02.png" width="400">
+<img src="images_3/images_DLG_RH/02.png" width="350">
 
-<img src="images_3/images_DLG_RH/03.png" width="400">
+<img src="images_3/images_DLG_RH/03.png" width="350">
 
 </p>
 
 ---
 
-## Procédure de l'ajout des utilisateurs aux GG :
+## Procédure ajout des utilisateurs aux GG :
 
-Pour l'ajout des utilisateurs aux GG, la procédure utilisée est la suivante :
+La procédure utilisée est la suivante :
 
 1. Naviguer jusqu’à l’OU du service concerné (ex : Utilisateur_RH) 
 
@@ -118,23 +110,21 @@ Pour l'ajout des utilisateurs aux GG, la procédure utilisée est la suivante :
 
 ---
 
-## Démonstration :
-
-Pour la démonstration, nous nous servirons juste d’un seul exemple.
+## Démonstration ajout d'un utilisateur_RH au GG_RH :
 
 <p align="center">
 
-<img src="images_4/images_ajout_RH/01.png" width="400">
+<img src="images_4/images_ajout_RH/01.png" width="350">
 
-<img src="images_4/images_ajout_RH/02.png" width="400">
+<img src="images_4/images_ajout_RH/02.png" width="350">
 
 </p>
 
 ---
 
-## Procédure de l'ajout des GG aux DLG :
+## Procédure ajout des GG aux DLG :
 
-Pour l'ajout des GG aux DLG, la procédure utilisée est la suivante :
+La procédure utilisée est la suivante :
 
 1. Naviguer jusqu’à l’OU du service concerné (ex : GG) 
 
@@ -148,22 +138,12 @@ Pour l'ajout des GG aux DLG, la procédure utilisée est la suivante :
 
 ---
 
-## Démonstration :
-
-Pour la démonstration, nous nous servirons juste d’un seul exemple.
+## Démonstration ajout d'un GG_RH au DLG_RH :
 
 <p align="center">
 
-<img src="images_5/images_ajout_GG_RH/01.png" width="400">
+<img src="images_5/images_ajout_GG_RH/01.png" width="350">
 
-<img src="images_5/images_ajout_GG_RH/02.png" width="400">
+<img src="images_5/images_ajout_GG_RH/02.png" width="350">
 
 </p>
-
-
-
-
-
-
-
-
