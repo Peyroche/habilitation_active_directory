@@ -1,8 +1,8 @@
-# DEMONSTRATTION CREATION COMPTES
+## DEMONSTRATION
 
 ---
 
-## Création compte utilisateur_RH du nom de Placide
+## Création compte utilisateur_RH
 
 <p align="center">
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Création compte utilisateur_INF du nom de Fortuné
+## Création compte utilisateur_INF 
 
 <p align="center">
 
@@ -42,7 +42,7 @@
 
 ---
 
-## Création compte utilisateur_CP du nom de Hugues
+## Création compte utilisateur_CP
 
 <p align="center">
 
