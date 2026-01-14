@@ -24,8 +24,6 @@
 
 </p>
 
-La procédure est la même pour les autres Postes Clients.
-
 ---
 
 ## Configuration Windows server 22 :
@@ -81,9 +79,6 @@ La procédure est la même pour les autres Postes Clients.
 <img src="images_conf_user/10.png" width="350">
 
 </p>
-
-
-La procédure est la même pour les autres Postes Clients.
 
 ---
 
