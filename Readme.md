@@ -254,7 +254,7 @@ L’infrastructure se compose des éléments suivants :
 
 </p>
 
-III.3.2. Installation Poste Client PC02 du Service_Compta :
+## III.3.2. Installation Poste Client PC02 du Service_Compta :
 
 
 
