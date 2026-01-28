@@ -30,7 +30,7 @@ L’infrastructure se compose des éléments suivants :
 
 ---
 
-## III. Missions réalisées : 
+## III. Réalisations : 
 
 - installer Windows Server
 - installer Domaine Active Directory,
