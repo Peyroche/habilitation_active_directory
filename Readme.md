@@ -109,16 +109,6 @@ Le projet à pour objectif :
 
 ## III.2. Installation du serveur glpi :
 
-Prérequis à télécharger :
-
-- WampServer (PHP version 7.4.33) 
-- Packages Microsoft Visual C++ 
-- GLPI version 10.0.6
-
-## Installation WampServer :
-
-WampServer est une plateforme de développement web pour Windows. Elle permet : de créer et tester des sites web en local, d'utiliser des technologies comme (Apache, MySQL, PHP), de gérer les bases de données avec phpMyAdmin.
-
 <p align="center">
 
 <img src="wampserver/01.png" width="400">
