@@ -4,7 +4,7 @@
 
 ## I. Contexte :
 
-Dans le cadre de ma formation en BTS SIO et de ma montée en compétences en administration système, j’ai choisi de mettre en place une infrastructure Active Directory complète afin de comprendre et maîtriser les mécanismes d’habilitation, de gestion des utilisateurs et de sécurisation des accès. L’objectif est de simuler un environnement de l'entreprise MDF comprenant plusieurs services (Informatique, Comptabilité, Marketing) et de mettre en œuvre une gestion des permissions conforme au modèle AGDLP. 
+Dans le cadre de ma formation en BTS SIO et de ma montée en compétences en administration système, j’ai choisi de mettre en place une infrastructure Active Directory complète afin de comprendre et maîtriser les mécanismes d’habilitation, de gestion des utilisateurs et de sécurisation des accès. L’objectif est de simuler un environnement de l'entreprise MDF comprenant deux services (Informatique, Comptabilité) et de mettre en œuvre une gestion des permissions conforme au modèle AGDLP. 
 
 ---
 
@@ -24,32 +24,29 @@ L’infrastructure se compose des éléments suivants :
 
 - groupes locaux de domaine (DLG) associés aux ressources partagées. Ils reçoivent les permissions NTFS et SMB sur les dossiers du serveur. 
 
-- poste client Windows Pro intégrés au domaine. Il permet aux utilisateurs de se connecter avec leur compte AD et d’accéder aux ressources selon leurs droits. 
+- postes clients Windows Pro intégrés au domaine. Ils permettent aux utilisateurs de se connecter avec leur compte AD et d’accéder aux ressources selon leurs droits. 
 
-- dossiers partagés sur le serveur, organisés par service (Informatique, Comptabilité, Marketing). Chaque dossier est protégé par des permissions adaptées au rôle des utilisateurs. 
-
----
-
-## III. Objectifs du projet : 
-
-Le projet à pour objectif : 
-
-- d'installer un serveur Windows Server,
-- d'installer un domaine active directory,
-- d'installer un serveur glpi,
-- d'installer trois postes clients,
-- de créer des unités d’organisation, 
-- de créer des groupes globaux, 
-- de créer des groupes locaux de domaine,
-- de créer des utilisateurs,
-- de créer des dossiers partages,
-- de joindre les postes aux domaines.
+- dossiers partagés sur le serveur, organisés par service (Informatique, Comptabilité). Chaque dossier est protégé par des permissions adaptées au rôle des utilisateurs. 
 
 ---
 
-## III.1. Installation windows server et domaine active directory :
+## III. Missions réalisées : 
 
-## Installation windows server :
+- installer Windows Server et le Domaine Active Directory,
+- installer WampServer (Serveur GLPI),
+- installer deux postes clients,
+- créer des unités d’organisation, 
+- créer des groupes globaux, 
+- créer des groupes locaux de domaine,
+- créer des utilisateurs,
+- créer deux dossiers partages,
+- Joindre les postes clients aux domaines.
+
+---
+
+## III.1. Installation Windows Server et Domaine Active Directory :
+
+## Installation Windows Server :
 
 <p align="center">
 
@@ -87,7 +84,7 @@ Le projet à pour objectif :
 
 </p>
 
-## Configuration windows server :
+## Configuration Windows Server :
 
 <p align="center">
 
@@ -105,7 +102,7 @@ Le projet à pour objectif :
 
 </p>
 
-## Installation domaine active directory :
+## Installation Domaine Active Directory :
 
 <p align="center">
 
@@ -153,7 +150,7 @@ Le projet à pour objectif :
 
 ---
 
-## III.2. Installation du serveur GLPI :
+## III.2. Installation du Serveur GLPI :
 
 <p align="center">
 
@@ -179,7 +176,7 @@ Le projet à pour objectif :
 
 </p>
 
-## Configuration du serveur GLPI :
+## Configuration Serveur GLPI :
 
 <p align="center">
 
@@ -199,7 +196,9 @@ Le projet à pour objectif :
 
 ---
 
-## III.3. Installation postes clients :
+## III.3. Installation Postes Clients :
+
+## III.3.1. Installation Poste Client Service IT :
 
 <p align="center">
 
@@ -237,7 +236,7 @@ Le projet à pour objectif :
 
 </p>
 
-## Configuration Postes clients :
+## Configuration Poste Client Service_IT :
 
 <p align="center">
 
@@ -255,7 +254,9 @@ Le projet à pour objectif :
 
 </p>
 
----
+III.3.2. Installation Poste Client Service_Compta :
+
+
 
 
 
