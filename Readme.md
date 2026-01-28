@@ -91,21 +91,21 @@ Le projet à pour objectif :
 
 <p align="center">
 
-<img src="config/01.png" width="400">
+<img src="config_1/01.png" width="400">
 
-<img src="config/02.png" width="400">
+<img src="config_1/02.png" width="400">
 
-<img src="config/03.png" width="400">
+<img src="config_1/03.png" width="400">
 
-<img src="config/04.png" width="400">
+<img src="config_1/04.png" width="400">
 
-<img src="config/05.png" width="400">
+<img src="config_1/05.png" width="400">
 
-<img src="config/06.png" width="400">
+<img src="config_1/06.png" width="400">
 
 </p>
 
-## Installation du domaine active directory :
+## Installation domaine active directory :
 
 <p align="center">
 
@@ -153,7 +153,7 @@ Le projet à pour objectif :
 
 ---
 
-## III.2. Installation du serveur glpi :
+## III.2. Installation du serveur GLPI :
 
 <p align="center">
 
@@ -179,9 +179,27 @@ Le projet à pour objectif :
 
 </p>
 
+## Configuration du serveur GLPI :
+
+<p align="center">
+
+<img src="config_2/01.png" width="400">
+
+<img src="config_2/02.png" width="400">
+
+<img src="config_2/03.png" width="400">
+
+<img src="config_2/04.png" width="400">
+
+<img src="config_2/05.png" width="400">
+
+<img src="config_2/06.png" width="400">
+
+</p>
+
 ---
 
-## III.3. Installation et configuration postes clients :
+## III.3. Installation postes clients :
 
 <p align="center">
 
