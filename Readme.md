@@ -209,25 +209,25 @@ L’infrastructure se compose des éléments suivants :
 
 <p align="center">
 
-<img src="install_1/01.png" width="400">
+<img src="install_PC01/01.png" width="400">
 
-<img src="install_1/02.png" width="400">
+<img src="install_PC01/02.png" width="400">
 
-<img src="install_1/03.png" width="400">
+<img src="install_PC01/03.png" width="400">
 
-<img src="install_1/04.png" width="400">
+<img src="install_PC01/04.png" width="400">
 
-<img src="install_1/05.png" width="400">
+<img src="install_PC01/05.png" width="400">
 
-<img src="install_1/06.png" width="400">
+<img src="install_PC01/06.png" width="400">
 
-<img src="install_1/07.png" width="400">
+<img src="install_PC01/07.png" width="400">
 
-<img src="install_1/08.png" width="400">
+<img src="install_PC01/08.png" width="400">
 
-<img src="install_1/09.png" width="400">
+<img src="install_PC01/09.png" width="400">
 
-<img src="install_1/10.png" width="400">
+<img src="install_PC01/10.png" width="400">
 
 </p>
 
