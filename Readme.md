@@ -153,8 +153,6 @@ L’infrastructure se compose des éléments suivants :
 
 <img src="install_AD/19.png" width="400">
 
-<img src="install_AD/20.png" width="400">
-
 </p>
 
 ---
@@ -271,6 +269,65 @@ L’infrastructure se compose des éléments suivants :
 
 ## III.5. Installation Poste Client PC02 du Service_Compta :
 
+<p align="center">
+
+<img src="install_PC02/01.png" width="400">
+
+<img src="install_PC02/02.png" width="400">
+
+<img src="install_PC02/03.png" width="400">
+
+<img src="install_PC02/04.png" width="400">
+
+<img src="install_PC02/05.png" width="400">
+
+<img src="install_PC02/06.png" width="400">
+
+<img src="install_PC02/07.png" width="400">
+
+<img src="install_PC02/08.png" width="400">
+
+<img src="install_PC02/09.png" width="400">
+
+<img src="install_PC02/10.png" width="400">
+
+</p>
+
+## Configuration Poste Client PC0é du Service_Compta :
+
+<p align="center">
+
+<img src="config_PC02/01.png" width="400">
+
+<img src="config_PC02/02.png" width="400">
+
+<img src="config_PC02/03.png" width="400">
+
+<img src="config_PC02/04.png" width="400">
+
+<img src="config_PC02/05.png" width="400">
+
+<img src="config_PC02/06.png" width="400">
+
+</p>
+
+## Configuration réseau Poste Client PC02 du Service_Compta :
+
+<p align="center">
+
+<img src="reseau_PC02/01.png" width="400">
+
+<img src="reseau_PC02/02.png" width="400">
+
+<img src="reseau_PC02/03.png" width="400">
+
+<img src="reseau_PC02/04.png" width="400">
+
+<img src="reseau_PC02/05.png" width="400">
+
+<img src="reseau_PC02/06.png" width="400">
+
+</p>
 
 
 
