@@ -293,7 +293,7 @@ L’infrastructure se compose des éléments suivants :
 
 </p>
 
-## Configuration Poste Client PC0é du Service_Compta :
+## Configuration Poste Client PC02 du Service_Compta :
 
 <p align="center">
 
@@ -328,6 +328,8 @@ L’infrastructure se compose des éléments suivants :
 <img src="reseau_PC02/06.png" width="400">
 
 </p>
+
+---
 
 
 
