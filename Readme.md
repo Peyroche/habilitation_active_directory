@@ -203,7 +203,7 @@ J'ai commencé avant tout par configurer Windows server en réseau interne.
 </p>
 
 
-Ensuite j'ai changé le nom originel de l'ordinateur par SVR.
+Ensuite j'ai changé le nom originel de l'ordinateur par "SRV".
 
 
 <p align="center">
@@ -223,7 +223,7 @@ Ensuite j'ai changé le nom originel de l'ordinateur par SVR.
 </p>
 
 
-## Configuration du poste client au domaine :
+## Configuration du poste client :
 
 
 J'ai commencé avant tout par configurer le poste client en réseau interne.
