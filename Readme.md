@@ -158,6 +158,10 @@ Pour en arriver au résultat de l'habilitation active directory, j’ai install�
 
 <img src="install_PC/10.png" width="400">
 
+<img src="install_PC/11.png" width="400">
+
+<img src="install_PC/12.png" width="400">
+
 </p>
 
 
@@ -179,12 +183,89 @@ Pour en arriver au résultat de l'habilitation active directory, j’ai install�
 ## Configuration Windows server :
 
 
+J'ai commencé avant tout par configurer Windows server en réseau interne.
 
 
+<p align="center">
 
-## Configuration et jonction du poste client au domaine :
+<img src="reseau_SRV/01.png" width="400">
+
+<img src="reseau_SRV/02.png" width="400">
+
+<img src="reseau_SRV/03.png" width="400">
+
+<img src="reseau_SRV/04.png" width="400">
+
+<img src="reseau_SRV/05.png" width="400">
+
+<img src="reseau_SRV/06.png" width="400">
+
+</p>
 
 
+Ensuite j'ai changé le nom originel de l'ordinateur par SVR.
+
+
+<p align="center">
+
+<img src="config_SRV/01.png" width="400">
+
+<img src="config_SRV/02.png" width="400">
+
+<img src="config_SRV/03.png" width="400">
+
+<img src="config_SRV/04.png" width="400">
+
+<img src="config_SRV/05.png" width="400">
+
+<img src="config_SRV/06.png" width="400">
+
+</p>
+
+
+## Configuration du poste client au domaine :
+
+
+J'ai commencé avant tout par configurer le poste client en réseau interne.
+
+
+<p align="center">
+
+<img src="reseau_PC/01.png" width="400">
+
+<img src="reseau_PC/02.png" width="400">
+
+<img src="reseau_PC/03.png" width="400">
+
+<img src="reseau_PC/04.png" width="400">
+
+<img src="reseau_PC/05.png" width="400">
+
+<img src="reseau_PC/06.png" width="400">
+
+</p>
+
+
+Ensuite j'ai changé le nom originel de l'ordinateur par "PC" et j'ai joint l'ordinateur au domaine "mdf.local".
+
+
+<p align="center">
+
+<img src="config_PC/01.png" width="400">
+
+<img src="config_PC/02.png" width="400">
+
+<img src="config_PC/03.png" width="400">
+
+<img src="config_PC/04.png" width="400">
+
+<img src="config_PC/05.png" width="400">
+
+<img src="config_PC/06.png" width="400">
+
+<img src="config_PC/07.png" width="400">
+
+</p>
 
 
 ## III.3. Application méthode AGDLP :
