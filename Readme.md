@@ -112,6 +112,22 @@ Pour en arriver au résultat de l'habilitation au travers de active directory, j
 
 <img src="install_SRV/20.png" width="400">
 
+<img src="install_SRV/21.png" width="400">
+
+<img src="install_SRV/22.png" width="400">
+
+<img src="install_SRV/23.png" width="400">
+
+<img src="install_SRV/24.png" width="400">
+
+<img src="install_SRV/25.png" width="400">
+
+<img src="install_SRV/26.png" width="400">
+
+<img src="install_SRV/27.png" width="400">
+
+<img src="install_SRV/28.png" width="400">
+
 </p>
 
 
