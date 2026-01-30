@@ -4,7 +4,7 @@
 
 ## I. Contexte :
 
-Dans le cadre de ma formation en BTS SIO et de ma montée en compétences en administration système, j’ai choisi de mettre en place sur un environnement virtuel VirtualBox une infrastructure Active Directory complète afin de comprendre et maîtriser les mécanismes d’habilitation, de gestion des utilisateurs et de sécurisation des accès. L’objectif est de simuler un environnement de travail du Groupe MDF comprenant deux services (Informatique, Comptabilité) et de mettre en œuvre une gestion des permissions conforme au modèle AGDLP. 
+Dans le cadre de ma formation en BTS SIO et de ma montée en compétences en administration système, j’ai choisi de mettre en place sur un environnement virtuel (VirtualBox), une infrastructure Active Directory afin de comprendre et maîtriser le mécanisme d’habilitation, de gestion des utilisateurs et de sécurisation des accès. 
 
 ---
 
