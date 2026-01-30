@@ -30,7 +30,7 @@ L’infrastructure se compose des éléments suivants :
 
 ## III. Réalisations : 
 
-Pour en arriver au résultat de l'habilitation au travers de active directory, j’ai installé VirtualBox sur une machine physique, ensuite un serveur Windows Server jouant le rôle de contrôleur de domaine ainsi qu'un poste client Windows relié au domaine. J’ai ensuite créé des unités d’organisation, des groupes globaux, des groupes locaux de domaine et des utilisateurs, afin de structurer les droits d’accès aux dossiers partagés. Ce projet permet de reproduire une architecture professionnelle et de démontrer ma capacité à organiser, sécuriser et documenter une infrastructure Active Directory.
+Pour en arriver au résultat de l'habilitation active directory, j’ai installé VirtualBox sur une machine physique, ensuite un serveur Windows Server jouant le rôle de contrôleur de domaine ainsi qu'un poste client Windows relié au domaine. J’ai ensuite créé des unités d’organisation, des groupes globaux, des groupes locaux de domaine et des utilisateurs, afin de structurer les droits d’accès aux dossiers partagés.
 
 ---
 
