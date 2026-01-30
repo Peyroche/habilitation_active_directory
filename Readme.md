@@ -4,7 +4,7 @@
 
 ## I. Contexte :
 
-Dans le cadre de ma formation en BTS SIO et de ma montée en compétences en administration système, j’ai choisi de mettre en place sur un environnement virtuel (VirtualBox), une infrastructure Active Directory afin de comprendre et maîtriser le mécanisme d’habilitation, de gestion des utilisateurs et de sécurisation des accès. 
+Dans le cadre de ma formation en BTS SIO et de ma montée en compétences en administration système, j’ai choisi de mettre en place sur un environnement virtuel (VirtualBox), un réseau Active Directory afin de comprendre et maîtriser le mécanisme d’habilitation, de gestion des utilisateurs et de sécurisation des accès. 
 
 ---
 
@@ -30,7 +30,7 @@ L’infrastructure se compose des éléments suivants :
 
 ## III. Réalisations : 
 
-Pour en arriver au résultat de l'habilitation active directory, j’ai installé VirtualBox sur une machine physique, ensuite un serveur Windows Server jouant le rôle de contrôleur de domaine ainsi qu'un poste client Windows relié au domaine. J’ai ensuite créé des unités d’organisation, des groupes globaux, des groupes locaux de domaine et des utilisateurs, afin de structurer les droits d’accès aux dossiers partagés.
+Pour arriver au résultat sur l'habilitation active directory, j’ai installé VirtualBox sur une machine physique, ensuite un serveur Windows Server jouant le rôle de contrôleur de domaine ainsi qu'un poste client Windows relié au domaine. J’ai ensuite créé des unités d’organisation, des groupes globaux, des groupes locaux de domaine et des utilisateurs, afin de structurer les droits d’accès aux dossiers partagés.
 
 ---
 
@@ -269,5 +269,52 @@ Ensuite j'ai changé le nom originel de l'ordinateur par "PC" et j'ai joint l'or
 
 
 ## III.3. Application méthode AGDLP :
+
+
+| Secteurs       | OU_Utilisateurs  | OU_GG         | OU_DLG          | 
+|----------------|------------------|---------------|-----------------|
+| Informatique   | Placide          | GG_IT         | DLG_IT          |  
+| Comptabilité   | Yvette           | GG_Compta     | DLG_Compta      | 
+  
+
+## Création unités d'organisation :
+
+
+<p align="center">
+
+<img src="OU/01.png" width="400">
+
+<img src="OU/02.png" width="400">
+
+<img src="OU/03.png" width="400">
+
+<img src="OU/04.png" width="400">
+
+<img src="OU/05.png" width="400">
+
+<img src="OU/06.png" width="400">
+
+<img src="OU/07.png" width="400">
+
+</p>
+
+
+## Création Utilisateurs :
+
+
+
+
+
+
+## Création Groupes globaux :
+
+
+
+
+
+
+## Création Groupes domaines locaux :
+
+
 
 
