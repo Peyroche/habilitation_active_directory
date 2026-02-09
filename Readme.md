@@ -212,3 +212,31 @@ Création d’un script PowerShell permettant de :
 <img src="ajout_PC02/12.png" width="400">
 
 </p>
+
+## 2. Organisation de l’Active Directory
+
+### Création des UO
+  
+| Secteur              | OU_Utilisateurs            | OU_GG               | OU_DLG           |                          
+|----------------------|----------------------------|---------------------|------------------|
+| RH                   | OU_Utilisateurs_RH         | OU_GG_RH            | OU_DLG_RH        | 
+| Comptabilité         | OU_Utilisateurs_Compta     | OU_GG_Compta        | OU_DLG_Compta    | 
+| Informatique         | OU_Utilisateurs_IT         | OU_GG_IT            | OU_DLG_IT        | 
+
+<p align="center">
+
+<img src="ou/01.png" width="400">
+
+<img src="ou/02.png" width="400">
+
+<img src="ou/03.png" width="400">
+
+<img src="ou/04.png" width="400">
+
+</p>
+
+
+
+
+
+
