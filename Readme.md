@@ -1,4 +1,5 @@
 ## PROJET 2 : HABILITATION SUR UN DOSSIER PARTAGE
+
 ---
 
 ## I. Introduction 
@@ -48,7 +49,7 @@ Objectifs détaillés :
 
 ---
 
-IV. Enjeux du projet
+## IV. Enjeux du projet
 
 Sécurité :
 
@@ -72,7 +73,7 @@ Conformité :
 
 ---
 
-V. Déroulement du projet
+## V. Déroulement du projet
 
 Afin de répondre efficacement à la problématique de gestion des habilitations au sein d’un domaine Active Directory, il a été nécessaire de structurer une démarche méthodique et progressive. La mise en place d’un environnement de test, la création d’une organisation cohérente dans l’annuaire, puis l’application de droits d’accès adaptés constituent les fondations essentielles de ce projet.
 
@@ -90,20 +91,12 @@ Afin de répondre efficacement à la problématique de gestion des habilitations
 
 3. Mise en place du dossier partagé
 - Création du dossier RH,
-- Partage du dossier RH,
-- Application des droits NTFS.
+- Application droits de partages SMB,
+- Application des permissions NTFS.
 
-4. Vérification automatique des habilitations
-Création d’un script PowerShell permettant de :
-- lire les ACL des dossiers,
-- comparer les droits réels aux droits attendus,
-- afficher un résultat conforme / non conforme.
+4. Exécution d'un script PowerShell de vérification automatique des habilitations.
 
-5. Tests et validation
-- Connexion avec un utilisateur RH → accès uniquement au dossier RH.
-- Connexion avec un utilisateur Comptabilité → accès uniquement à Comptabilité.
-- Connexion avec un utilisateur IT → accès lecture globale.
-- Exécution du script PowerShell → génération d’un rapport d’audit.
+5. Tester la connexion avec un utilisateur RH.
 
 ---
 
@@ -137,7 +130,7 @@ Création d’un script PowerShell permettant de :
 
 </p>
 
-### Création du domaine mdf.local
+### Création d'un domaine mdf.local
 
 <p align="center">
 
@@ -323,3 +316,82 @@ Création d’un script PowerShell permettant de :
 
 </p>
 
+### Droits de partages SMB
+
+<p align="center">
+
+<img src="SMB/01.png" width="400">
+
+<img src="SMB/02.png" width="400">
+
+<img src="SMB/03.png" width="400">
+
+<img src="SMB/04.png" width="400">
+
+<img src="SMB/05.png" width="400">
+
+<img src="SMB/06.png" width="400">
+
+<img src="SMB/07.png" width="400">
+
+<img src="SMB/08.png" width="400">
+
+</p>
+
+### Permissions NTFS
+
+<p align="center">
+
+<img src="NTFS/01.png" width="400">
+
+<img src="NTFS/02.png" width="400">
+
+<img src="NTFS/03.png" width="400">
+
+<img src="NTFS/04.png" width="400">
+
+<img src="NTFS/05.png" width="400">
+
+<img src="NTFS/06.png" width="400">
+
+<img src="NTFS/07.png" width="400">
+
+<img src="NTFS/08.png" width="400">
+
+<img src="NTFS/09.png" width="400">
+
+<img src="NTFS/1O.png" width="400">
+
+<img src="NTFS/11.png" width="400">
+
+</p>
+
+### 4. Exécution d'un script PowerShell de vérification automatique des habilitations
+
+<p align="center">
+
+<img src="script/01.png" width="400">
+
+</p>
+
+### 5. Tester la connexion avec un utilisateur RH
+
+<p align="center">
+
+<img src="connexion/01.png" width="400">
+
+<img src="connexion/02.png" width="400">
+
+<img src="connexion/03.png" width="400">
+
+<img src="connexion/04.png" width="400">
+
+<img src="connexion/05.png" width="400">
+
+<img src="connexion/06.png" width="400">
+
+<img src="connexion/07.png" width="400">
+
+<img src="connexion/08.png" width="400">
+
+</p>
