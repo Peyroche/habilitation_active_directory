@@ -1,320 +1,187 @@
-# Projet 1 : Habilitation Active Directory
+## PROJET 2 : MISE EN PLACE ET VERIFICATION DES NIVEAUX D'HABILITATION SUR UN DOSSIER PARTAGE WINDOWS (ACTIVE DIRECTORY)
+---
+
+## I. Introduction 
+
+Dans un environnement professionnel, la gestion des droits d’accès aux ressources est un élément essentiel de la sécurité informatique. Les entreprises doivent garantir que chaque collaborateur accède uniquement aux informations nécessaires à l’exercice de ses fonctions.
+Ce projet consiste à mettre en place un dossier partagé au sein d’un domaine Active Directory, à définir des niveaux d’habilitation adaptés aux différents services, puis à vérifier automatiquement la conformité de ces droits grâce à un script PowerShell.
+
+Ce travail s’inscrit dans une démarche de sécurisation du système d’information et répond aux bonnes pratiques de gestion des accès en entreprise.
 
 ---
 
-## I. Contexte :
+## II. Problématique  
 
-Dans le cadre de ma formation en BTS SIO et de ma montée en compétences en administration système, j’ai choisi de mettre en place sur un environnement virtuel (VirtualBox), un réseau Active Directory afin de comprendre et maîtriser le mécanisme d’habilitation, de gestion des utilisateurs et de sécurisation des accès. 
+Comment garantir que les utilisateurs d’un domaine Active Directory disposent uniquement des droits nécessaires à leur activité, tout en assurant une gestion centralisée, cohérente et vérifiable des habilitations sur un dossier partagé ?
+
+Cette problématique implique :
+
+- la création d’une structure AD propre et hiérarchisée,
+
+- la mise en place de groupes de sécurité adaptés,
+
+- l’application de droits NTFS cohérents,
+
+- la vérification régulière de la conformité des habilitations.
 
 ---
 
-## II. Présentation de l’architecture : 
+## III. Objectifs du projet 
 
-L’infrastructure se compose des éléments suivants : 
+Objectif principal :
 
-- serveur Windows Server jouant le rôle de contrôleur de domaine (DC). Il héberge les services essentiels : Active Directory Domain Services (AD DS), DNS, gestion des utilisateurs, des groupes et des stratégies de sécurité. 
+- Mettre en place un dossier partagé sécurisé et vérifier automatiquement les habilitations associées aux différents services.
 
-- domaine Active Directory structuré selon une logique professionnelle. Le domaine permet l’authentification centralisée des utilisateurs et la gestion des permissions via le modèle AGDLP. 
+Objectifs détaillés :
 
-- unités d’organisation (OU) permettant de structurer les utilisateurs, les groupes et les postes clients. Cette organisation facilite l’application de stratégies de groupe (GPO) et la gestion des habilitations. 
+- Créer un domaine Active Directory fonctionnel.
 
-- groupes globaux (GG) représentant les rôles métiers (Informatique, Comptabilité). Ils regroupent les utilisateurs selon leur fonction. 
+- Organiser les utilisateurs dans des unités d’organisation (OU).
 
-- groupes locaux de domaine (DLG) associés aux ressources partagées. Ils reçoivent les permissions NTFS et SMB sur les dossiers du serveur. 
+- Créer des groupes de sécurité correspondant aux services.
 
-- d'un poste client Windows Pro intégré au domaine. Il permet aux utilisateurs de se connecter avec leur compte AD et d’accéder aux ressources selon leurs droits. 
+- Configurer un dossier partagé avec des droits NTFS adaptés.
 
-- dossiers partagés sur le serveur, organisés par service (Informatique, Comptabilité). Chaque dossier est protégé par des permissions adaptées au rôle des utilisateurs. 
+- Automatiser la vérification des droits via un script PowerShell.
+
+- Générer un rapport indiquant la conformité ou les écarts détectés
+
+---
+
+IV. Enjeux du projet
+
+Sécurité :
+
+- Limiter l’accès aux données sensibles et réduire les risques de fuite ou de manipulation non autorisée.
+
+Organisation :
+
+- Structurer les services et les groupes pour faciliter la gestion quotidienne des comptes utilisateurs.
+
+Automatisation :
+
+- Éviter les erreurs humaines grâce à un script de vérification automatique.
+
+Traçabilité :
+
+- Produire un rapport d’audit permettant de prouver la conformité des habilitations.
+
+Conformité :
+
+- Respecter les bonnes pratiques de sécurité (principe du moindre privilège).
+
+---
+
+V. Déroulement du projet
+
+Afin de répondre efficacement à la problématique de gestion des habilitations au sein d’un domaine Active Directory, il a été nécessaire de structurer une démarche méthodique et progressive. La mise en place d’un environnement de test, la création d’une organisation cohérente dans l’annuaire, puis l’application de droits d’accès adaptés constituent les fondations essentielles de ce projet.
+
+1. Mise en place de l’environnement
+- Installation d’un contrôleur de domaine Windows Server sous VirtualBox,
+- Création du domaine : mdf.local,
+- Ajout d’un poste client Windows 10 au domaine.
+
+2. Organisation de l’Active Directory
+- Création des OU,
+- Création des groupes de sécurité,
+- Création des utilisateurs et affectation aux groupes
+
+3. Mise en place du dossier partagé
+- Création du dossier D:\Services.
+- Sous-dossiers : RH, Comptabilité, Informatique,
+- Partage du dossier principal,
+- Application des droits NTFS.
+
+4. Vérification automatique des habilitations
+
+Création d’un script PowerShell permettant de :
+- lire les ACL des dossiers,
+- comparer les droits réels aux droits attendus,
+- afficher un résultat conforme / non conforme.
+
+5. Tests et validation
+- Connexion avec un utilisateur RH → accès uniquement au dossier RH.
+- Connexion avec un utilisateur Comptabilité → accès uniquement à Comptabilité.
+- Connexion avec un utilisateur IT → accès lecture globale.
+- Exécution du script PowerShell → génération d’un rapport d’audit.
 
 ---
 
 ## III. Réalisations : 
 
-Pour arriver au résultat sur l'habilitation active directory, j’ai installé VirtualBox sur une machine physique, ensuite un serveur Windows Server jouant le rôle de contrôleur de domaine ainsi qu'un poste client Windows relié au domaine. J’ai ensuite créé des unités d’organisation, des groupes globaux, des groupes locaux de domaine et des utilisateurs, afin de structurer les droits d’accès aux dossiers partagés.
+### 1. Mise en place de l'environnement
 
----
-
-## III.1. Installations :
-
-
-## Installation VirtualBox :
-
+### Installation d’un contrôleur de domaine Windows Server sous VirtualBox
 
 <p align="center">
 
-<img src="install_VirtuelBox/01.png" width="400">
+<img src="install_serveur/01.png" width="400">
 
-<img src="install_VirtuelBox/02.png" width="400">
+<img src="install_server/02.png" width="400">
 
-<img src="install_VirtuelBox/03.png" width="400">
+<img src="install_serveur/03.png" width="400">
 
-<img src="install_VirtuelBox/04.png" width="400">
+<img src="install_serveur/04.png" width="400">
 
-<img src="install_VirtuelBox/05.png" width="400">
+<img src="install_serveur/05.png" width="400">
 
-<img src="install_VirtuelBox/06.png" width="400">
+<img src="install_serveur/06.png" width="400">
 
-<img src="install_VirtuelBox/07.png" width="400">
+<img src="install_serveur/07.png" width="400">
 
-<img src="install_VirtuelBox/08.png" width="400">
+<img src="install_serveur/08.png" width="400">
 
-<img src="install_VirtuelBox/09.png" width="400">
+<img src="install_serveur/09.png" width="400">
 
-<img src="install_VirtuelBox/10.png" width="400">
-
-<img src="install_VirtuelBox/11.png" width="400">
+<img src="install_serveur/10.png" width="400">
 
 </p>
 
-
-## Installation Windows Server et AD :
-
+### Création du domaine 
 
 <p align="center">
 
-<img src="install_SRV/01.png" width="400">
+<img src="domaine/01.png" width="400">
 
-<img src="install_SRV/02.png" width="400">
+<img src="domaine/02.png" width="400">
 
-<img src="install_SRV/03.png" width="400">
+<img src="domaine/03.png" width="400">
 
-<img src="install_SRV/04.png" width="400">
+<img src="domaine/04.png" width="400">
 
-<img src="install_SRV/05.png" width="400">
+<img src="domaine/05.png" width="400">
 
-<img src="install_SRV/06.png" width="400">
+<img src="domaine/06.png" width="400">
 
-<img src="install_SRV/07.png" width="400">
+<img src="domaine/07.png" width="400">
 
-<img src="install_SRV/08.png" width="400">
+<img src="domaine/08.png" width="400">
 
-<img src="install_SRV/09.png" width="400">
+<img src="domaine/09.png" width="400">
 
-<img src="install_SRV/10.png" width="400">
+<img src="domaine/10.png" width="400">
 
-<img src="install_SRV/11.png" width="400">
+<img src="domaine/11.png" width="400">
 
-<img src="install_SRV/12.png" width="400">
+<img src="domaine/12.png" width="400">
 
-<img src="install_SRV/13.png" width="400">
+<img src="domaine/13.png" width="400">
 
-<img src="install_SRV/14.png" width="400">
+<img src="domaine/14.png" width="400">
 
-<img src="install_SRV/15.png" width="400">
+<img src="domaine/15.png" width="400">
 
-<img src="install_SRV/16.png" width="400">
+<img src="domaine/16.png" width="400">
 
-<img src="install_SRV/17.png" width="400">
+<img src="domaine/17.png" width="400">
 
-<img src="install_SRV/18.png" width="400">
+<img src="domaine/18.png" width="400">
 
-<img src="install_SRV/19.png" width="400">
+<img src="domaine/19.png" width="400">
 
-<img src="install_SRV/20.png" width="400">
-
-<img src="install_SRV/21.png" width="400">
-
-<img src="install_SRV/22.png" width="400">
-
-<img src="install_SRV/23.png" width="400">
-
-<img src="install_SRV/24.png" width="400">
-
-<img src="install_SRV/25.png" width="400">
-
-<img src="install_SRV/26.png" width="400">
-
-<img src="install_SRV/27.png" width="400">
-
-<img src="install_SRV/28.png" width="400">
-
-<img src="install_SRV/29.png" width="400">
+<img src="domaine/20.png" width="400">
 
 </p>
-
-
-## Installation du poste client :
-
-
-<p align="center">
-
-<img src="install_PC/01.png" width="400">
-
-<img src="install_PC/02.png" width="400">
-
-<img src="install_PC/03.png" width="400">
-
-<img src="install_PC/04.png" width="400">
-
-<img src="install_PC/05.png" width="400">
-
-<img src="install_PC/06.png" width="400">
-
-<img src="install_PC/07.png" width="400">
-
-<img src="install_PC/08.png" width="400">
-
-<img src="install_PC/09.png" width="400">
-
-<img src="install_PC/10.png" width="400">
-
-<img src="install_PC/11.png" width="400">
-
-<img src="install_PC/12.png" width="400">
-
-</p>
-
-
-## III.2. Configurations :
-
-
-## Configuration VirtualBox :
-
-
-<p align="center">
-
-<img src="config_VirtuelBox/01.png" width="400">
-
-<img src="config_VirtuelBox/02.png" width="400">
-
-</p>
-
-
-## Configuration Windows server :
-
-
-J'ai commencé avant tout par configurer Windows server en réseau interne.
-
-
-<p align="center">
-
-<img src="reseau_SRV/01.png" width="400">
-
-<img src="reseau_SRV/02.png" width="400">
-
-<img src="reseau_SRV/03.png" width="400">
-
-<img src="reseau_SRV/04.png" width="400">
-
-<img src="reseau_SRV/05.png" width="400">
-
-<img src="reseau_SRV/06.png" width="400">
-
-</p>
-
-
-Ensuite j'ai changé le nom originel de l'ordinateur par "SRV".
-
-
-<p align="center">
-
-<img src="config_SRV/01.png" width="400">
-
-<img src="config_SRV/02.png" width="400">
-
-<img src="config_SRV/03.png" width="400">
-
-<img src="config_SRV/04.png" width="400">
-
-<img src="config_SRV/05.png" width="400">
-
-<img src="config_SRV/06.png" width="400">
-
-</p>
-
-
-## Configuration du poste client :
-
-
-J'ai commencé avant tout par configurer le poste client en réseau interne.
-
-
-<p align="center">
-
-<img src="reseau_PC/01.png" width="400">
-
-<img src="reseau_PC/02.png" width="400">
-
-<img src="reseau_PC/03.png" width="400">
-
-<img src="reseau_PC/04.png" width="400">
-
-<img src="reseau_PC/05.png" width="400">
-
-<img src="reseau_PC/06.png" width="400">
-
-</p>
-
-
-Ensuite j'ai changé le nom originel de l'ordinateur par "PC" et j'ai joint l'ordinateur au domaine "mdf.local".
-
-
-<p align="center">
-
-<img src="config_PC/01.png" width="400">
-
-<img src="config_PC/02.png" width="400">
-
-<img src="config_PC/03.png" width="400">
-
-<img src="config_PC/04.png" width="400">
-
-<img src="config_PC/05.png" width="400">
-
-<img src="config_PC/06.png" width="400">
-
-<img src="config_PC/07.png" width="400">
-
-</p>
-
-
-## III.3. Application méthode AGDLP :
-
-
-| Secteurs       | OU_Utilisateurs  | OU_GG         | OU_DLG          | 
-|----------------|------------------|---------------|-----------------|
-| Informatique   | Placide          | GG_IT         | DLG_IT          |  
-| Comptabilité   | Yvette           | GG_Compta     | DLG_Compta      | 
-  
-
-## Création unités d'organisation :
-
-
-<p align="center">
-
-<img src="OU/01.png" width="400">
-
-<img src="OU/02.png" width="400">
-
-<img src="OU/03.png" width="400">
-
-<img src="OU/04.png" width="400">
-
-<img src="OU/05.png" width="400">
-
-<img src="OU/06.png" width="400">
-
-<img src="OU/07.png" width="400">
-
-</p>
-
-
-## Création Utilisateurs :
-
-
-
-
-
-
-## Création Groupes globaux :
-
-
-
-
-
-
-## Création Groupes domaines locaux :
-
 
 
 
