@@ -78,22 +78,22 @@ Afin de répondre efficacement à la problématique de gestion des habilitations
 
 1. Mise en place de l’environnement
 - Installation d’un contrôleur de domaine Windows Server sous VirtualBox,
-- Création du domaine : mdf.local,
+- Création du domaine mdf.local,
 - Ajout d’un poste client Windows 10 au domaine.
 
 2. Organisation de l’Active Directory
 - Création des OU,
 - Création des groupes de sécurité,
-- Création des utilisateurs et affectation aux groupes
+- Création des utilisateurs,
+- affectation des utilisateurs aux groupes globaux,
+- affectation des groupes globaux aux groupes domaines locaux.
 
 3. Mise en place du dossier partagé
-- Création du dossier D:\Services.
-- Sous-dossiers : RH, Comptabilité, Informatique,
-- Partage du dossier principal,
+- Création du dossier RH,
+- Partage du dossier RH,
 - Application des droits NTFS.
 
 4. Vérification automatique des habilitations
-
 Création d’un script PowerShell permettant de :
 - lire les ACL des dossiers,
 - comparer les droits réels aux droits attendus,
@@ -292,3 +292,34 @@ Création d’un script PowerShell permettant de :
 <img src="affectation_GG/03.png" width="400">
 
 </p>
+
+### 3. Mise en place du dossier partagé
+
+### Création du dossier RH
+
+<p align="center">
+
+<img src="dossier_RH/01.png" width="400">
+
+<img src="dossier_RH/02.png" width="400">
+
+<img src="dossier_RH/03.png" width="400">
+
+<img src="dossier_RH/04.png" width="400">
+
+<img src="dossier_RH/05.png" width="400">
+
+<img src="dossier_RH/06.png" width="400">
+
+<img src="dossier_RH/07.png" width="400">
+
+<img src="dossier_RH/08.png" width="400">
+
+<img src="dossier_RH/09.png" width="400">
+
+<img src="dossier_RH/1O.png" width="400">
+
+<img src="dossier_RH/11.png" width="400">
+
+</p>
+
