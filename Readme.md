@@ -215,7 +215,7 @@ Création d’un script PowerShell permettant de :
 
 ## 2. Organisation de l’Active Directory
 
-### Création des UO
+### Création des unités d'organisation (OU)
   
 | Secteur              | OU_Utilisateurs            | OU_GG               | OU_DLG           |                          
 |----------------------|----------------------------|---------------------|------------------|
@@ -225,15 +225,17 @@ Création d’un script PowerShell permettant de :
 
 <p align="center">
 
-<img src="ou/01.png" width="400">
+<img src="OU/01.png" width="400">
 
-<img src="ou/02.png" width="400">
+<img src="OU/02.png" width="400">
 
-<img src="ou/03.png" width="400">
+<img src="OU/03.png" width="400">
 
-<img src="ou/04.png" width="400">
+<img src="OU/04.png" width="400">
 
 </p>
+
+### Création des groupes de sécurité
 
 
 
