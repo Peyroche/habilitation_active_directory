@@ -137,7 +137,7 @@ Création d’un script PowerShell permettant de :
 
 </p>
 
-### Création du domaine 
+### Création du domaine mdf.local
 
 <p align="center">
 
@@ -185,3 +185,28 @@ Création d’un script PowerShell permettant de :
 
 ### Ajout d’un poste client Windows 10 au domaine
 
+<img src="ajout_PC02/01.png" width="400">
+
+<img src="ajout_PC02/02.png" width="400">
+
+<img src="ajout_PC02/03.png" width="400">
+
+<img src="ajout_PC02/04.png" width="400">
+
+<img src="ajout_PC02/05.png" width="400">
+
+<img src=ajout_PC02"/06.png" width="400">
+
+<img src="ajout_PC02/07.png" width="400">
+
+<img src="ajout_PC02/08.png" width="400">
+
+<img src="ajout_PC02/09.png" width="400">
+
+<img src="ajout_PC02/10.png" width="400">
+
+<img src="ajout_PC02/11.png" width="400">
+
+<img src="ajout_PC02/12.png" width="400">
+
+</p>
