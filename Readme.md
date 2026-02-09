@@ -197,7 +197,7 @@ Création d’un script PowerShell permettant de :
 
 <img src="ajout_PC02/05.png" width="400">
 
-<img src=ajout_PC02"/06.png" width="400">
+<img src=ajout_PC02/06.png" width="400">
 
 <img src="ajout_PC02/07.png" width="400">
 
