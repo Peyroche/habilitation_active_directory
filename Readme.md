@@ -239,7 +239,7 @@ Création d’un script PowerShell permettant de :
 
 <p align="center">
 
-<img src="GG_DLG/01" width="400">
+<img src="GG_DLG/01.png" width="400">
 
 <img src="GG_DLG/02.png" width="400">
 
@@ -257,7 +257,7 @@ Création d’un script PowerShell permettant de :
 
 <p align="center">
 
-<img src="utilisateurs/01" width="400">
+<img src="utilisateurs/01.png" width="400">
 
 <img src="utilisateurs/02.png" width="400">
 
