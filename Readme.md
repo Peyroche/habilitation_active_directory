@@ -4,10 +4,10 @@
 
 ## I. Introduction 
 
-Dans un environnement professionnel, la gestion des droits d’accès aux ressources est un élément essentiel de la sécurité informatique. Les entreprises doivent garantir que chaque collaborateur accède uniquement aux informations nécessaires à l’exercice de ses fonctions.
-Ce projet consiste à mettre en place un dossier partagé au sein d’un domaine Active Directory, à définir des niveaux d’habilitation adaptés aux différents services, puis à vérifier automatiquement la conformité de ces droits grâce à un script PowerShell.
+<p>Dans un environnement professionnel, la gestion des droits d’accès aux ressources est un élément essentiel de la sécurité informatique. Les entreprises doivent garantir que chaque collaborateur accède uniquement aux informations nécessaires à l’exercice de ses fonctions.</p>
+<p>Ce projet consiste à mettre en place un dossier partagé au sein d’un domaine Active Directory, à définir des niveaux d’habilitation adaptés aux différents services, puis à vérifier automatiquement la conformité de ces droits grâce à un script PowerShell.</p>
 
-Ce travail s’inscrit dans une démarche de sécurisation du système d’information et répond aux bonnes pratiques de gestion des accès en entreprise.
+<p>Ce travail s’inscrit dans une démarche de sécurisation du système d’information et répond aux bonnes pratiques de gestion des accès en entreprise.</p>
 
 ---
 
