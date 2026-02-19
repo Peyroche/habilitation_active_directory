@@ -397,7 +397,7 @@
 
 ---
 
-VII. Conclusion
+## VII. Conclusion
 
 <p>La mise en place d’un dossier partagé sécurisé au sein d’un domaine Active Directory a permis de structurer et de fiabiliser la gestion des habilitations au sein de l’organisation. L’ensemble des étapes réalisées — création du domaine, organisation des unités d’organisation, définition des groupes de sécurité, configuration des permissions SMB et NTFS, puis automatisation du contrôle via un script PowerShell — constitue une solution complète, conforme aux bonnes pratiques de gestion des accès.</p>
 
