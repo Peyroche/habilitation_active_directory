@@ -50,23 +50,23 @@
 
 ## IV. Enjeux
 
-<p><b>Sécurité :</b></p>
+<p><b>1. Sécurité :</b></p>
 <p>Assurer que chaque collaborateur accède uniquement aux ressources nécessaires à ses missions.</p>
 <p>Limiter les risques de fuite de données ou de compromission.</p>
 
-<p><b>Organisation :</b></p>
+<p><b>2. Organisation :</b></p>
 <p>Structurer les habilitations selon les services, les rôles et les responsabilités</p>
 <p>Faciliter les mouvements internes (mobilité, arrivée, départ).</p>
 
-<p><b>Opérationnel :</b></p>
+<p><b>3. Opérationnel :</b></p>
 <p>Automatiser les contrôles pour réduire les erreurs humaines</p>
 <p>Optimiser le travail des administrateurs système.</p>
 
-<p><b>Traçabilité :</b></p>
+<p><b>4. Traçabilité :</b></p>
 <p>Conserver une vision claire, documentée et vérifiable des droits d’accès</p>
 <p>Détecter rapidement les anomalies ou dérives d’habilitation.</p>
 
-<p><b>Conformité :</b></p>
+<p><b>5. Conformité :</b></p>
 <p>Répondre aux bonnes pratiques de cybersécurité (ANSSI, RGPD, ISO 27001)</p>
 <p>Pouvoir justifier des droits attribués lors d’un audit.</p>
 
@@ -227,7 +227,7 @@
 
 </p>
 
-### Création des groupes de sécurité
+### Création des groupes globaux et domaines locaux
 
 <p align="center">
 
