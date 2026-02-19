@@ -22,47 +22,53 @@
 
 ## III. Objectifs
 
-Objectif principal :
+<p><b>1. Créer un dossier partagé sécurisé dans un domaine Active Directory</b></p>
+<p>Définir une arborescence claire et adaptée aux besoins métiers.</p>
+<p>Configurer les partages réseau et les permissions NTFS.</p>
 
-- Mettre en place un dossier partagé sécurisé et vérifier automatiquement les habilitations associées aux différents services.
+<p><b>2. Mettre en place des groupes d’habilitation cohérents</b></p>
+<p>Créer des groupes AD correspondant aux services ou rôles</p>
+<p>Appliquer le principe du moindre privilège (Least Privilège Access).</p>
 
-Objectifs détaillés :
+<p><b>3. Automatiser la vérification des droits d’accès</b></p>
 
-- Créer un domaine Active Directory fonctionnel.
+<p>Développer un script PowerShell capable :</p>
+<p>d'analyser les permissions du dossier</p>
+<p>comparer les droits réels avec les droits attendus</p>
+<p>signaler les écarts ou anomalies.</p>
 
-- Organiser les utilisateurs dans des unités d’organisation (OU).
+<p><b>4. Renforcer la sécurité du système d’information</b></p>
+<p>Réduire les risques d’accès non autorisés</p>
+<p>Garantir la conformité des habilitations dans le temps</p>
+<p>Faciliter les audits internes ou externes.</p>
 
-- Créer des groupes de sécurité correspondant aux services.
-
-- Configurer un dossier partagé avec des droits NTFS adaptés.
-
-- Automatiser la vérification des droits via un script PowerShell.
-
-- Générer un rapport indiquant la conformité ou les écarts détectés
+<p><b>5. Simplifier la gestion quotidienne des administrateurs</b></p>
+<p>b>Centraliser la gestion via Active Directory.</b></p>
+<p><b>Automatiser les contrôles pour gagner du temps et éviter les erreurs humaines.</b></p>
 
 ---
 
 ## IV. Enjeux
 
-Sécurité :
+<p><b>Sécurité :</b></p>
+<p>Assurer que chaque collaborateur accède uniquement aux ressources nécessaires à ses missions.</p>
+<p>Limiter les risques de fuite de données ou de compromission.</p>
 
-- Limiter l’accès aux données sensibles et réduire les risques de fuite ou de manipulation non autorisée.
+<p><b>Organisation :</b></p>
+<p>Structurer les habilitations selon les services, les rôles et les responsabilités</p>
+<p>Faciliter les mouvements internes (mobilité, arrivée, départ).</p>
 
-Organisation :
+<p><b>Opérationnel :</b></p>
+<p>Automatiser les contrôles pour réduire les erreurs humaines</p>
+<p>Optimiser le travail des administrateurs système.</p>
 
-- Structurer les services et les groupes pour faciliter la gestion quotidienne des comptes utilisateurs.
+<p><b>Traçabilité :</b></p>
+<p>Conserver une vision claire, documentée et vérifiable des droits d’accès</p>
+<p>Détecter rapidement les anomalies ou dérives d’habilitation.</p>
 
-Automatisation :
-
-- Éviter les erreurs humaines grâce à un script de vérification automatique.
-
-Traçabilité :
-
-- Produire un rapport d’audit permettant de prouver la conformité des habilitations.
-
-Conformité :
-
-- Respecter les bonnes pratiques de sécurité (principe du moindre privilège).
+<p><b>Conformité :</b></p>
+<p>Répondre aux bonnes pratiques de cybersécurité (ANSSI, RGPD, ISO 27001)</p>
+<p>Pouvoir justifier des droits attribués lors d’un audit.</p>
 
 ---
 
@@ -93,7 +99,7 @@ Conformité :
 
 ---
 
-## III. Réalisations : 
+## VI. Réalisations 
 
 ### 1. Mise en place de l'environnement
 
