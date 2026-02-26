@@ -310,10 +310,14 @@
 
 ### Droits de partages SMB
 
+<div align="center">
+
 | Groupes                | Rôles                 | Droits               |                      
 |------------------------|-----------------------|----------------------|
 | domaine computers      | PC du domaine         | lecture              |
 | DLG_RH                 | Groupe du domaine     | lecture              |
+
+</div>
 
 <p align="center">
 
@@ -337,6 +341,8 @@
 
 ### Permissions NTFS
 
+<div align="center">
+
 | Groupes                | Rôles                 | Droit                |                      
 |------------------------|-----------------------|----------------------|
 | Administrateurs        | Admis du serveur      | Contrôle total       | 
@@ -345,6 +351,8 @@
 | Utilisateurs           | Compte locaux/domaine | lecture et exécution |                     
 | domaine computers      | PC du domaine         | lecture et exécution |
 | DLG_RH                 | Groupe du domaine     | lecture              |
+
+</div>
 
 Activation de l'héritage :
 
@@ -407,7 +415,9 @@ Vérification de l'héritage :
 </p>
 
 
-### 5. Tester la connexion avec un utilisateur RH
+### 5. Tester l'accès réellement
+
+Ce teste consiste à se connecter avec un utilisateur du domaine et essayer d’ouvrir le fichier depuis ce compte.
 
 <p align="center">
 
