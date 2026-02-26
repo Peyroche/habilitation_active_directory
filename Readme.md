@@ -318,10 +318,10 @@ Les droits de partages sont présentés sur ce tableau :
 
 <div align="center">
 
-| Groupes                | Rôles                 | Droits               |                      
-|------------------------|-----------------------|----------------------|
-| domaine computers      | PC du domaine         | lecture              |
-| DLG_RH                 | Groupe du domaine     | lecture              |
+| Groupes                  | Rôles                 | Droits               |                      
+|--------------------------|-----------------------|----------------------|
+| Ordinateurs du domaine   | PC du domaine         | lecture              |
+| DLG_RH                   | Groupe du domaine     | lecture              |
 
 </div>
 
@@ -375,7 +375,6 @@ Activation de l'héritage :
 <img src="heritage/04.png" width="400">
 
 </p>
-
 
 Permission :
 
