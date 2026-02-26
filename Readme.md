@@ -50,11 +50,11 @@
 
 ## IV. Architecture
 
-| Secteur              | OU_Utilisateurs      | OU_GG               | OU_DLG           | Dossier partagé |                        
-|----------------------|----------------------|---------------------|------------------|-----------------|
-| RH                   | Placide              | GG_RH               | DLG_RH           | Dossier_RH      |
-| Comptabilité         | Virginie             | GG_Compta           | DLG_Compta       |     /           |
-| Informatique         | Mercier              | GG_IT               | DLG_IT           |     /           |
+| Secteur              | OU_Utilisateurs      | OU_GG               | OU_DLG           | Dossier partagé | Domain computers  |                     
+|----------------------|----------------------|---------------------|------------------|-----------------|-------------------|
+| RH                   | Placide              | GG_RH               | DLG_RH           | Dossier_RH      |     PC01-RH       |
+| Comptabilité         | Virginie             | GG_Compta           | DLG_Compta       |     /           |        /          |
+| Informatique         | Mercier              | GG_IT               | DLG_IT           |     /           |        /          |
 
 ---
 
@@ -75,6 +75,7 @@
 <p>- Affectation des groupes globaux aux groupes domaines locaux.</p>
 
 <p><b>3. Mise en place du dossier partagé</b></p>
+<p>- Création d'un disque dur</p>
 <p>- Création du dossier RH</p>
 <p>- Application droits de partages SMB</p>
 <p>- Application des permissions NTFS.</p>
@@ -180,14 +181,6 @@
 <img src="ajout_PC02/07.png" width="400">
 
 <img src="ajout_PC02/08.png" width="400">
-
-<img src="ajout_PC02/09.png" width="400">
-
-<img src="ajout_PC02/10.png" width="400">
-
-<img src="ajout_PC02/11.png" width="400">
-
-<img src="ajout_PC02/12.png" width="400">
 
 </p>
 
