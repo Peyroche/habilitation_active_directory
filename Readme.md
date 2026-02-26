@@ -256,6 +256,36 @@
 
 ### 3. Mise en place du dossier partagé
 
+### Création disque dur
+
+<p align="center">
+
+<img src="disque_dur/01.png" width="400">
+
+<img src="disque_dur/02.png" width="400">
+
+<img src="disque_dur/03.png" width="400">
+
+<img src="disque_dur/04.png" width="400">
+
+<img src="disque_dur/05.png" width="400">
+
+<img src="disque_dur/06.png" width="400">
+
+<img src="disque_dur/07.png" width="400">
+
+<img src="disque_dur/08.png" width="400">
+
+<img src="disque_dur/09.png" width="400">
+
+<img src="disque_dur/10.png" width="400">
+
+<img src="disque_dur/11.png" width="400">
+
+<img src="disque_dur/12.png" width="400">
+
+</p>
+
 ### Création du dossier RH
 
 <p align="center">
@@ -275,12 +305,6 @@
 <img src="dossier_RH/07.png" width="400">
 
 <img src="dossier_RH/08.png" width="400">
-
-<img src="dossier_RH/09.png" width="400">
-
-<img src="dossier_RH/10.png" width="400">
-
-<img src="dossier_RH/11.png" width="400">
 
 </p>
 
