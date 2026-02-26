@@ -156,10 +156,6 @@
 
 <img src="domaine/18.png" width="400">
 
-<img src="domaine/19.png" width="400">
-
-<img src="domaine/20.png" width="400">
-
 </p>
 
 ### Ajout d’un poste client windows 10 Entreprise au domaine
