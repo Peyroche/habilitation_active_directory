@@ -52,9 +52,9 @@
 
 | Secteur              | OU_Utilisateurs      | OU_GG               | OU_DLG           | Dossier partagé | Domain computers  |                     
 |----------------------|----------------------|---------------------|------------------|-----------------|-------------------|
-| RH                   | Placide              | GG_RH               | DLG_RH           | Dossier_RH      |     PC01-RH       |
-| Comptabilité         | Virginie             | GG_Compta           | DLG_Compta       |     /           |        /          |
-| Informatique         | Mercier              | GG_IT               | DLG_IT           |     /           |        /          |
+| RH                   | Placide              | GG_RH               | DLG_RH           |  dossier_RH     |     PC01-RH       |
+| Comptabilité         | Virginie             | GG_Compta           | DLG_Compta       |     /           |     PC02-Compta   |
+| Informatique         | Mercier              | GG_IT               | DLG_IT           |  dossier_IT     |     PC03-IT       |
 
 ---
 
